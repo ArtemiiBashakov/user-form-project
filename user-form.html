@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация/вход пользователя</title>
+    <!-- <link rel="stylesheet" href="./fonts/fonts.css" /> -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Вход пользователя</h1>
+    </header>
+    <main>
+        <form class="login-form" method="POST">
+            <h2 class="login-password-form-title">Для входа на сайт введите адрес электронной почты и пароль</h2>
+            <label class="email__label">
+              <span class="email__label-text label-text">Адрес электронной почты</span>
+              <input
+                type="email"
+                placeholder="email"
+                name="email"
+                class="email__input-text"
+                required
+              />
+            </label>
+            <label class="password__label">
+              <span class="password__label-text label-text">Пароль</span>
+              <input
+                type="password"
+                placeholder="пароль"
+                name="password"
+                class="password__input-text"
+                required
+              />
+            </label>
+            <button type="submit" class="submit-button">
+            Войти/зарегистрироваться
+          </button>
+          </form>
+    </main>
+  </body>
