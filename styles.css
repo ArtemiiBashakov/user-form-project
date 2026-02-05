@@ -108,3 +108,11 @@ label {
   font-size: 15px;
   color: red;
 }
+.success {
+    border-color: #23d160 !important;
+    background-color: #f5fff9;
+}
+.error {
+    border-color: #ff3860 !important;
+    background-color: #fff5f5;
+}
